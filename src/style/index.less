@@ -1,0 +1,57 @@
+@import url(./reset.less);
+
+
+@maxMargin: 100;
+
+// 外边距的通用类
+.marginFactory(@margin) when(@margin<=@maxMargin) {
+  .ml-@{margin} {
+    margin-left: ~"@{margin}px";
+  }
+  .mr-@{margin} {
+    margin-right: ~"@{margin}px";
+  }
+  .mt-@{margin} {
+    margin-top: ~"@{margin}px";
+  }
+  .mb-@{margin} {
+    margin-bottom: ~"@{margin}px";
+  }
+  // 递归调用
+  .marginFactory(@margin + 2);
+}
+
+.marginFactory(0);
+
+
+// 通用样式类
+.flex {
+  display: flex;
+}
+
+.flex-jcc {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-aic {
+  display: flex;
+  align-items: center;
+}
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-sb-c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-sb-e {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
