@@ -1,9 +1,15 @@
-# Vue 3 + TypeScript + Vite
+# 酷鸽商城后台管理前端
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 开发工具
+* node-20.8.0
+* pnpm-8.8.0
+* 淘宝镜像源：https://registry.npmmirror.com
 
-## Recommended Setup
+## 启动命令
+```shell
+# 安装依赖
+pnpm install
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
-
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+# 本地运行
+pnpm run dev
+```
