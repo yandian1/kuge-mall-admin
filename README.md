@@ -1,4 +1,8 @@
-# 酷鸽商城后台管理前端
+# 酷鸽商城管理端前端
+
+1. [开发工具](#开发工具)
+1. [启动命令](#启动命令)
+1. [演示图例](#演示图例)
 
 ## 开发工具
 * node-20.8.0
@@ -14,8 +18,8 @@ pnpm install
 pnpm run dev
 ```
 
-## 运行效果
-<div :class="$style.imgs">
+## 演示图例
+<div>
   <img src="/document/img/用户管理.png" />
   <img src="/document/img/添加用户.png" />
   <img src="/document/img/编辑用户.png" />
