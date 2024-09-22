@@ -27,6 +27,7 @@ pnpm install
 # 本地运行
 pnpm run dev
 ```
+tips：正常运行需要启动后端服务，后端项目地址：https://github.com/xiexianbao/kuge-mall
 
 ## 演示图例
 <div>
