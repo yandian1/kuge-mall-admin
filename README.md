@@ -1,6 +1,6 @@
 # 酷鸽商城后台管理前端
 
-kuge-mall-admin是酷鸽商城管理端项目，具有商品管理、订单管理、秒杀活动管理、优惠券管理、商品分类管理、系统管理等功能。技术栈为Vue3+Typescript+Vue-Router+Pinia+AntDesignVue+Less+Vite
+kuge-mall-admin是酷鸽商城管理端项目，具有商品管理、订单管理、秒杀活动管理、优惠券管理、商品分类管理、系统管理等功能。技术栈为Vue3、Typescript、Vue-Router、Pinia、AntDesignVue、Less、Vite
 
 ![合集](/document/img/合集.jpg "合集")
 
