@@ -5,21 +5,12 @@ kuge-mall-admin是酷鸽商城管理端项目，具有商品管理、订单管�
 ![合集](/document/img/合集.jpg "合集")
 
 ## 目录
-1. [开发工具](#开发工具)
 1. [技术栈](#技术栈)
+1. [开发工具](#开发工具)
 1. [拉取代码](#拉取代码)
 1. [启动项目](#启动项目)
 1. [联系作者](#联系作者)
 1. [演示图例](#演示图例)
-
-## 开发工具
-* node20.8.0
-* pnpm8.8.0
-* vscode
-* git
-* 淘宝镜像源：https://registry.npmmirror.com
-
-tips：需要先安装好上面的开发工具，以启动项目
 
 ## 技术栈
 | 技术         | 介绍                | 官网                                      |
@@ -35,6 +26,15 @@ tips：需要先安装好上面的开发工具，以启动项目
 | tinymce       | 富文本编辑器            | http://tinymce.ax-z.cn |
 | less       | CSS 扩展语言          | https://less.bootcss.com |
 
+
+## 开发工具
+* node20.8.0
+* pnpm8.8.0
+* vscode
+* git
+* 淘宝镜像源：https://registry.npmmirror.com
+
+tips：需要先安装好上面的开发工具，以启动项目
 
 ## 拉取代码
 ```shell
